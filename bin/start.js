@@ -6,7 +6,7 @@
 process.env.NODE_ENV = 'production'
 
 const express = require('express')
-const debug = require('debug')('arena.utt.fr-api:bin')
+const debug = require('debug')('campus-utt-mobile-api:bin')
 const app = express()
 const env = require('../src/env')
 
